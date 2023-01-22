@@ -21,7 +21,7 @@ dependencies:
 
   ```sh
 import 'package:permission_handler/permission_handler.dart';
- 
+   ```
  
 3. Add storage permission code and set storage path
   ```sh
@@ -75,37 +75,37 @@ import 'package:permission_handler/permission_handler.dart';
 
   }
   ```
-   # Storage paths 💿
-  4. Root path
+# Storage paths 💿
+4. Root path
   
-    ```sh
+ ```sh
  Directory('/storage/emulated/0/')
   ```
   
  5. Download path 
   
-    ```sh
+ ```sh
  Directory('/storage/emulated/0/Download')
   ```
-  6. Camara path 📷
+6. Camara path 📷
   
-    ```sh
+ ```sh
 Directory('/storage/emulated/0/DCIM/Camera')
-  ```
-  7. Movie path
+ ```
+7. Movie path
   
-    ```sh
+```sh
 Directory('/storage/emulated/0/Movies')
-  ```
-   8. Music path
+```
+8. Music path
   
-    ```sh
+ ```sh
 Directory('/storage/emulated/0/Music')
-  ```
+```
   
-  # Storage get full code 
+# Storage get full code 
   
-      ```sh
+```sh
 import 'dart:io';
 import 'dart:ui';
 import 'package:just_audio/just_audio.dart';
@@ -281,12 +281,12 @@ class _FFState extends State<FF> {
 
   }
 }
-  ```
+ ```
   
   
- # Show file image
+# Show file image
  
-     ```sh
+```sh
      Container(
             height: 90,
             width: 90,
@@ -294,18 +294,18 @@ class _FFState extends State<FF> {
                 image: DecorationImage(image: FileImage(-IMAGE-PATH-))),
           ),
 
-  ```
+ ```
   
-   # Show file song
+ # Show file song
  
-     ```sh
+```sh
  final player = AudioPlayer(); // Create a player
  final duration = await player.setUrl(// Load a URL
  -SONG-FILE-PATH-); // Schemes: (https: | file: | asset: )
   player.play();
 ),
 
-  ```
+```
   
   
- # End happy hacking 😄
+# End happy hacking 😄
