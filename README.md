@@ -9,7 +9,22 @@
    
 
 
+# Import🔥
 
+  ```sh
+<uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+<uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.ACTION_MANAGE_WRITE_SETTINGS" />
+   ```
+
+  ```sh
+ <application
+ 
+  android:requestLegacyExternalStorage="true"
+   ```
 
 
 1. Add dependency
